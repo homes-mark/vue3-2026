@@ -1,7 +1,7 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import RgbPalettePage from './cases/rgb-palette/RgbPalettePage.vue'
 </script>
 
 <template>
-  <HelloWorld />
+  <RgbPalettePage />
 </template>

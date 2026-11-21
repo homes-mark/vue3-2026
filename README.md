@@ -2,7 +2,9 @@
 
 ## 仓库目的
 
-用同一个 Vue 3 + Vite 项目练习不同案例，通过 Git 提交记录每个案例的实现过程。当前版本是初始化模板，尚未加入练习案例。
+用同一个 Vue 3 + Vite 项目练习不同案例，通过 Git 提交记录每个案例的实现过程。
+
+**当前案例：[RGB 调色盘](./src/cases/rgb-palette/RgbPalettePage.vue)**。拖动红、绿、蓝滑块，实时查看色块和 `rgb(...)` 文本；点击预设色会同时更新三个滑块。这个案例练习 `ref`、`v-model.number`、`computed`、动态样式和事件绑定。
 
 ## 下载到本地并运行
 
@@ -30,7 +32,8 @@ npm run dev
 
 | 位置 | 内容 |
 | --- | --- |
-| [`src/`](./src/) | Vue 应用源码，包括入口、根组件、示例组件和样式。 |
+| [`src/`](./src/) | Vue 应用的入口、根组件和基础样式。 |
+| [`src/cases/`](./src/cases/) | 各个练习案例的页面与专用组件。 |
 | [`public/`](./public/) | 网站图标等静态资源。 |
 | [`package.json`](./package.json) 和 [`package-lock.json`](./package-lock.json) | 项目依赖、运行命令及锁定的依赖版本。 |
 | [`vite.config.js`](./vite.config.js) | Vite 构建配置。 |
